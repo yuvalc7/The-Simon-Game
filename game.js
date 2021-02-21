@@ -1,8 +1,8 @@
-var gamePattern = [];
-var userClickedPattern = [];
-var buttonColours = ["red", "blue", "green", "yellow"];
-var started = false;
-var level = 0;
+let gamePattern = [];
+let userClickedPattern = [];
+const buttonColours = ["red", "blue", "green", "yellow"];
+let started = false;
+let level = 0;
 
 $(document).keypress(function (event) {
   if (!started) {
